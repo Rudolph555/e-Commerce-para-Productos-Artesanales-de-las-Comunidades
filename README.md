@@ -50,21 +50,14 @@ usuario@host:~$ npm install
 En WINDOWS previo a Instalar dependencias en caso de obtener error
 Abrir PowerShell como administrador:
     * Ejecutar
-
-    ```plaintext
-    Set-ExecutionPolicy RemoteSigned
-    ```
+    `Set-ExecutionPolicy RemoteSigned`
 
     * Verificar
-    ```plaintext
-    Get-ExecutionPolicy
-    ```
+    `Get-ExecutionPolicy`
     Esto debería mostrar RemoteSigned..
 
     *Para cambiar la política de ejecución en PowerShell a Restricted
-     ```plaintext
-    Set-ExecutionPolicy Restricted
-    ```
+    `Set-ExecutionPolicy Restricted`
 
 Run
 
