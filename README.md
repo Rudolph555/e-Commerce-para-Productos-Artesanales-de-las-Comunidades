@@ -48,16 +48,17 @@ Instalar dependencias
 usuario@host:~$ npm install
 ```
 En WINDOWS previo a Instalar dependencias en caso de obtener error
-Abrir PowerShell como administrador:
-    * Ejecutar
-    `Set-ExecutionPolicy RemoteSigned`
+Abrir PowerShell como administrador:  
+    
+    * Ejecutar  
+    Set-ExecutionPolicy RemoteSigned
 
-    * Verificar
-    `Get-ExecutionPolicy`
+    * Verificar  
+    Get-ExecutionPolicy
     Esto debería mostrar RemoteSigned..
 
-    *Para cambiar la política de ejecución en PowerShell a Restricted
-    `Set-ExecutionPolicy Restricted`
+    * Para cambiar la política de ejecución en PowerShell nuevamente a Restricted:
+    Set-ExecutionPolicy Restricted
 
 Run
 
